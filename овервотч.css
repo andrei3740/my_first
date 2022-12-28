@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap");
+body{
+    margin: 0;
+    font-family: "Inter";
+}
+/*оформление шапки сайта*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(0.25turn, #6e4aff, #49A16C);
+    height: 90px;
+}
+
+.container {
+    display: flex;
+
+}
+
+.logo {
+    width: 70%;
+    height: 70%;
+    padding: 5%;
+    padding-right: 0;
+
+}
+
+.nav-bar {
+    padding-top: 5%;
+    justify-content: space-between;
+    width: 700px;
+}
+/*оформление мэйна сайта*/
+main {
+    display: flex;
+    background-image: linear-gradient(#044C80, #b1ddeb);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.banner {
+    display: flex;
+    
+    left: 25%;  
+    right: 0;
+    margin: 0 auto;
+    /* justify-content: center; */
+}
+.ban {
+    width: 100%;
+    height: 100%;
+}
+.banner2 {
+    display: flex;
+    height: 40%;
+    justify-content: center;
+}
+.bib2{
+    height: 48%;
+}
+.banner3 {
+    display: flex;
+    flex-direction: column;
+}
+.banner-ramattra{
+    display: flex;
+    margin: 0% auto;
+    background-image: linear-gradient(#30174b, #a17bc7);
+    width: 1024px;  
+    height: auto;
+    border-radius: 2%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.ramattra {
+    margin: 0% auto;
+    padding: 4%;
+    width: 900px;
+    margin-left: 10%;
+}
+.text-ram {
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.ramat {
+    height: 58%;
+    width: 58%;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+.ramat2 {
+    height: 38%;
+    width: 47%;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+.ramat3 {
+    height: 40%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+.ram2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    margin-bottom: 5%;
+    
+}
+.ramat4 {
+    width: 35%;
+}
+.nint {
+    width: 5%;
+    border-radius: 6%;
+}
+.pc {
+    width: 5%;
+    border-radius: 6%;
+}
+.xbox {
+    width: 5%;
+    border-radius: 6%;
+}
+.ps {
+    width: 5%;
+    border-radius: 6%;
+}
+.dow {
+    display: flex;
+    width: 12%;
+    margin: 0% auto;
+    border-radius: 5%;
+}
+.platf{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+}
+/*оформление подвала сайта*/
+footer {
+    display: flex;
+    background-image: linear-gradient(#646464, #91c2df);
+    width: 100%;
+    height: 239px;
+}
+.beb {
+    padding-top: 7%;
+    padding-left: 2%;
+}
+.iconic {
+    display: flex;
+    margin-left: 15%;  
+}
+.icon {
+    width: 94px;
+    height: 76px;
+    padding: 20% 20% 15%;
+   
+}
+
+@media all and (max-width: 1024px) {
+   
+
+    .logo{
+        width: 45%;
+    }
+    .banner2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .iconic {
+        width: 46px;
+        height: 35px;
+        padding: 8% 15% 1%;
+
+    }
+    .icon {
+        padding: 20% 50% 15%;
+    }
+}

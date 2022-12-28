@@ -1,0 +1,28 @@
+.wrapper{
+    display: grid;
+
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 13fr;
+    grid-template-areas: 
+                        "header-content header-content"
+                        "aside main" ;
+}
+
+.content {
+    text-align: center;
+    border: 2px dashed green;
+    padding: 30px;
+    margin-top: 15px;
+}
+
+.header-content{
+    grid-area: header-content;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main {
+    grid-area: main;
+}
